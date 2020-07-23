@@ -6,7 +6,7 @@ Daily Bible is an android app to send a daily alert message for Christians to re
 
 Use [Android Studio](https://developer.android.com/studio/install) to open files.
 
-## Contributing
+## Authors and acknowledgment
 
 Gloria Kim is the sole contributor of this project.
 
