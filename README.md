@@ -8,7 +8,7 @@ Use [Android Studio](https://developer.android.com/studio/install) to access fil
 
 ## Contributing
 
-Gloria Kim is the main contributor for this project.
+Gloria Kim is the sole contributor for this project.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
