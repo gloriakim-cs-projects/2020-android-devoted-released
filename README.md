@@ -1,2 +1,14 @@
-# android_app_daily_bible
-A backup of android app Daily Bible
+# Daily Bible
+
+Daily Bible is an android app to send a daily alert message for Christians to read Bible.
+
+## Installation
+
+Use [Android Studio](https://developer.android.com/studio/install) to access files
+
+## Contributing
+
+Gloria Kim is the main contributor for this project.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
