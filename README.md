@@ -13,7 +13,8 @@ The list of references for building this project is shown below:
 1. [SQLite Series](https://www.youtube.com/watch?v=zTD6Zi7d9hc&list=PLgCYzUzKIBE8A8iKd3e84JxymFIORn_Lk)
 2. [Firebase Series](https://www.youtube.com/watch?v=lnidtzL71ZA)
 3. [Customized Listview](https://stackoverflow.com/questions/5563698/how-to-change-text-color-of-simple-list-item)
-4. [Alarm Notification](https://www.youtube.com/watch?v=nl-dheVpt8o)
+4. [Alarm Notification (API 26 and above)](https://www.youtube.com/watch?v=nl-dheVpt8o)
+4. [Alarm Notification (below API 26)](https://www.youtube.com/watch?v=ov9HBdg33kM)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
