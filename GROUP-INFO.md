@@ -24,7 +24,7 @@ Gloria Kim (sole contributor)
 
 **Removed Feature**
 
-- Because NIV is not freely available and KJV is difficul to understand, I simply removed the entire Bible fragment.
+- Because NIV is not freely available and KJV is difficult to understand, I simply removed the entire Bible fragment.
 
 **Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
