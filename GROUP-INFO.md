@@ -1,3 +1,13 @@
+# How to Install the Zip File
+
+Step 1. Download the zip file
+
+Step 2. Unzip the file
+
+Step 3. Open Android Studio
+
+Step 4. Open the file using Android Studio
+
 # Group Name
 
 Devoted
