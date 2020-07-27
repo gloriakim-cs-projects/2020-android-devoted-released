@@ -18,7 +18,8 @@ Gloria Kim (sole contributor)
 
 **Need to Complete (Partially Completed)**
 
-- Complete Button
+- Complete button
+- Brief instructions to use
 
 **Removed Feature**
 
