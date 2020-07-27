@@ -6,7 +6,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# as of July 27, 2020 5:00 AM
+# As of July 27, 2020 5:00 AM
 
 **Fully Completed**
 
