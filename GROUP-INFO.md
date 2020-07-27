@@ -10,7 +10,7 @@ Gloria Kim (sole contributor)
 
 **Fully Completed**
 
-- Main 
+- Main (except Setting and Credit)
 - Note
 - Alarm
 - Notification
