@@ -18,11 +18,11 @@ Gloria Kim (sole contributor)
 
 **Need to Complete (Partially Completed)**
 
-- Bible
+- Complete Button
 
-**Need to Check**
+**Removed Feature**
 
-- Bible's reading day count
+- Because NIV is not freely available and KJV is difficul to understand, I simply removed the entire Bible fragment.
 
 **Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
