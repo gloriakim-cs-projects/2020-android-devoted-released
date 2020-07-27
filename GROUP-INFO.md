@@ -8,6 +8,8 @@ Step 3. Open Android Studio
 
 Step 4. Open the file using Android Studio
 
+A thorughout readme can be found here: https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md
+
 # Group Name
 
 Devoted
