@@ -6,7 +6,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# as of July 27, 2020 2:50 AM
+# as of July 27, 2020 3:30 AM
 
 **Fully Completed**
 
@@ -14,11 +14,11 @@ Gloria Kim (sole contributor)
 - Note
 - Alarm
 - Notification
+- Record
 
 **Need to Complete (Partially Completed)**
 
 - Bible
-- Record
 
 **Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
