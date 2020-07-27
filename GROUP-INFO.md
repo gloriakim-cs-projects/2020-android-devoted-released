@@ -34,6 +34,7 @@ Gloria Kim (sole contributor)
 - Brief instructions to use
 - Main's Setting, Credit, and arrays for readnig plan
 - Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.) 
+- Refresh Bible fragment (my note part)
 
 **Removed Feature**
 
