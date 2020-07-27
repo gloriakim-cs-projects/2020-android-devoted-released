@@ -20,6 +20,10 @@ Gloria Kim (sole contributor)
 
 - Bible
 
+**Need to Check**
+
+- Bible's reading day count
+
 **Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
 
