@@ -10,7 +10,7 @@ Gloria Kim (sole contributor)
 
 **Fully Completed**
 
-- Main (except Setting and Credit)
+- Main (except Setting, Credit, and arrays for readnig plan)
 - Note
 - Alarm
 - Notification
