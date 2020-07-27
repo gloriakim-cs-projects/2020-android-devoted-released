@@ -14,8 +14,7 @@ The list of references for building this project is shown below:
 2. [Firebase Series](https://www.youtube.com/watch?v=lnidtzL71ZA)
 3. [Customized Listview](https://stackoverflow.com/questions/5563698/how-to-change-text-color-of-simple-list-item)
 4. [Alarm Notification](https://codinginflow.com/tutorials/android/alarmmanager)
-5-1. [TimePicker](https://www.youtube.com/watch?v=o-HVE_VxyjQ)
-5-2. [TimePickerXML](https://www.tutlane.com/tutorial/android/android-timepicker-with-examples)
+5. [TimePicker](https://www.tutlane.com/tutorial/android/android-timepicker-with-examples)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
