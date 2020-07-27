@@ -7,15 +7,20 @@ Devoted
 Gloria Kim (sole contributor)
 
 # as of July 27, 2020 2:50 AM
-*Completed*
+
+**Completed**
+
 - Main 
 - Note
 - Alarm
 - Notification
-*Need to Complete*
+
+**Need to Complete**
+
 - Bible
 - Record
-*Need Help*
+
+**Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
 
 # Updates
