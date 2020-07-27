@@ -8,14 +8,14 @@ Gloria Kim (sole contributor)
 
 # as of July 27, 2020 2:50 AM
 
-**Completed**
+**Fully Completed**
 
 - Main 
 - Note
 - Alarm
 - Notification
 
-**Need to Complete**
+**Need to Complete (Partially Completed)**
 
 - Bible
 - Record
