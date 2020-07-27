@@ -14,8 +14,9 @@ The list of references for building this project is shown below:
 2. [Firebase Series](https://www.youtube.com/watch?v=lnidtzL71ZA)
 3. [Customized Listview](https://stackoverflow.com/questions/5563698/how-to-change-text-color-of-simple-list-item)
 4. [Alarm Notification](https://codinginflow.com/tutorials/android/alarmmanager)
-5. [TimePicker](https://www.tutlane.com/tutorial/android/android-timepicker-with-examples)
-6. [Bible Reading Plan](https://www.biblestudytools.com/bible-reading-plan/)
+5. [Alarm Notification to Open an Activity](https://www.youtube.com/watch?v=j6kQ9gikU-A)
+6. [TimePicker](https://www.tutlane.com/tutorial/android/android-timepicker-with-examples)
+7. [Bible Reading Plan](https://www.biblestudytools.com/bible-reading-plan/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
