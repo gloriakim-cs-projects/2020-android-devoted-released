@@ -6,6 +6,18 @@ Devoted
 
 Gloria Kim (sole contributor)
 
+# as of July 27, 2020 2:50 AM
+*Completed*
+- Main 
+- Note
+- Alarm
+- Notification
+*Need to Complete*
+- Bible
+- Record
+*Need Help*
+- I successfully retrieved data from Firebase, but I cannot show the data using listview.
+
 # Updates
 
 June (2nd): finished the design using Adobe XD
@@ -23,3 +35,4 @@ July (3rd): Started to code the external storage (Figrebase) using Android Studi
 July (4th): Continued to code the Java files using Android Studio
 
 August (1st): Warpped up the entire code and wrote the final report
+
