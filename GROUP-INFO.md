@@ -33,7 +33,8 @@ Gloria Kim (sole contributor)
 - Complete button --> (1) make it unclickable once it is clicked. (2) save the clicked button even after the app is reopened.
 - Brief instructions to use
 - Main's Setting, Credit, and arrays for readnig plan
-- Found an error - need to change the reading day as 1 once the alarm notification is set!!!
+- Found an error - when the alarm is set for multiple days, it does not work. 
+- Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.)
 
 **Removed Feature**
 
