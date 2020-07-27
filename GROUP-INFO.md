@@ -6,7 +6,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# as of July 27, 2020 4:00 AM
+# as of July 27, 2020 5:00 AM
 
 **Fully Completed**
 
@@ -18,8 +18,9 @@ Gloria Kim (sole contributor)
 
 **Need to Complete (Partially Completed)**
 
-- Complete button
+- Complete button --> (1) make it unclickable once it is clicked. (2) save the clicked button even after the app is reopened.
 - Brief instructions to use
+- Main's Setting, Credit, and arrays for readnig plan
 
 **Removed Feature**
 
