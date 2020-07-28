@@ -35,6 +35,7 @@ Gloria Kim (sole contributor)
 - Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.) 
 - Refresh Bible fragment (my note part)
 - Public note --> (1) resets the public note every time (2) display in a weird way. need to remove [] (3) need to display right away
+- once the alarm is set, the first verse needs to show right away when the app is reopened
 
 **Removed Feature**
 
