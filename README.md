@@ -19,5 +19,9 @@ The list of references for building this project is shown below:
 7. [Bible Reading Plan](https://www.biblestudytools.com/bible-reading-plan/)
 8. [Hyperlinks](https://www.youtube.com/watch?v=aQIqQ2-lyO8)
 
+## Author
+
+This work is solely done by Gloria Kim.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
