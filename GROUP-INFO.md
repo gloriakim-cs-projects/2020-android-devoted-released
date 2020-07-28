@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 28, 2020 1:14 AM
+# As of July 28, 2020 2:00 AM
 
 **Fully Completed**
 
@@ -28,13 +28,15 @@ Gloria Kim (sole contributor)
 - Notification
 - Record
 
+- one CONTROLLER VARIABLE reading_plan
+
 **Need to Complete (Partially Completed)**
 
 - Brief instructions to use
 - Main's Setting
 - Refresh Bible fragment (my note part)
 - Public note --> (1) resets the public note every time (2) display in a weird way. need to remove [] (3) need to display right away
-- once the alarm is set, the first verse needs to show right away when the app is reopened (creating two CONTROLLER VARIABLES to do this.)
+- once the alarm is set, the first verse needs to show right away when the app is reopened (creating the last CONTROLLER VARIABLE reading_day to do this.)
 
 **Removed Feature**
 
