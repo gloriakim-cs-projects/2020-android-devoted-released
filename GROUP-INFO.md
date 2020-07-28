@@ -41,7 +41,6 @@ Gloria Kim (sole contributor)
 **Removed Feature**
 
 - Because NIV is not freely available and KJV is difficult to understand, I simply removed the entire Bible fragment.
-- Having several Alarm Managers causes the app stops. I removed the option of choosing days, hoping users are committed reading the Bible every day. 
 
 **Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
