@@ -18,11 +18,11 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 27, 2020 8:00 PM
+# As of July 27, 2020 9:00 PM
 
 **Fully Completed**
 
-- Main (except Setting, Credit)
+- Main (except Setting)
 - Note
 - Alarm
 - Notification
@@ -32,7 +32,7 @@ Gloria Kim (sole contributor)
 
 - Complete button --> (1) make it unclickable once it is clicked. (2) save the clicked button even after the app is reopened.
 - Brief instructions to use
-- Main's Setting, Credit
+- Main's Setting
 - Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.) 
 - Refresh Bible fragment (my note part)
 - Public note --> (1) resets the public note every time (2) display in a weird way. need to remove [] (3) need to display right away
