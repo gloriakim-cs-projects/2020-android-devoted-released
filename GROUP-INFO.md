@@ -22,7 +22,7 @@ Gloria Kim (sole contributor)
 
 **Fully Completed**
 
-- Main (except Setting, Credit, and arrays for readnig plan)
+- Main (except Setting, Credit)
 - Note
 - Alarm
 - Notification
@@ -35,6 +35,7 @@ Gloria Kim (sole contributor)
 - Main's Setting, Credit
 - Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.) 
 - Refresh Bible fragment (my note part)
+- Public note --> (1) resets the public note every time (2) display in a weird way. need to remove [] (3) need to display right away
 
 **Removed Feature**
 
