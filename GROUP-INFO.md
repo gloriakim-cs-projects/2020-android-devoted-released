@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 27, 2020 9:00 PM
+# As of July 28, 2020 12:40 AM
 
 **Fully Completed**
 
@@ -30,7 +30,6 @@ Gloria Kim (sole contributor)
 
 **Need to Complete (Partially Completed)**
 
-- Complete button --> (1) make it unclickable once it is clicked. (2) save the clicked button even after the app is reopened.
 - Brief instructions to use
 - Main's Setting
 - Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.) 
