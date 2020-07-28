@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 27, 2020 3:00 PM
+# As of July 27, 2020 8:00 PM
 
 **Fully Completed**
 
@@ -32,7 +32,7 @@ Gloria Kim (sole contributor)
 
 - Complete button --> (1) make it unclickable once it is clicked. (2) save the clicked button even after the app is reopened.
 - Brief instructions to use
-- Main's Setting, Credit, and arrays for readnig plan
+- Main's Setting, Credit
 - Alarm reset function (check if a user reset the alarm, it automatically reset the reading plan as well.) 
 - Refresh Bible fragment (my note part)
 
