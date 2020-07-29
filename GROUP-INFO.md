@@ -27,8 +27,7 @@ Gloria Kim (sole contributor)
 - Alarm
 - Notification
 - Record
-
-- one CONTROLLER VARIABLE reading_plan
+- all SharedPreferences variables (readnig_plan and reading_day)
 
 **Need to Complete (Partially Completed)**
 
@@ -36,7 +35,6 @@ Gloria Kim (sole contributor)
 - Main's Setting
 - Refresh Bible fragment (my note part)
 - Public note --> (1) resets the public note every time (2) display in a weird way. need to remove [] (3) need to display right away
-- once the alarm is set, the first verse needs to show right away when the app is reopened (creating the last CONTROLLER VARIABLE reading_day to do this.)
 
 **Removed Feature**
 
