@@ -31,8 +31,8 @@ Gloria Kim (sole contributor)
 
 **Need to Complete (Partially Completed)**
 
-- Brief instructions to use
-- Main's Setting
+- Brief instructions to use - add [One Time Screen](https://www.youtube.com/watch?v=O4q49TDsXAo)
+- Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from [stackoverflow](https://stackoverflow.com/questions/63167480/how-to-use-fragmentmanager-moving-from-an-activity-to-a-fragment). Need to know how to use FragmentManager. 
 - Need to know how to show the full content of each item in listview. [stackoverflow](https://stackoverflow.com/questions/63170886/how-to-display-the-full-content-of-each-item-in-listview-android-studio)
 
