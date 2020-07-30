@@ -20,7 +20,7 @@ The list of references for building this project is shown below:
 8. [TimePicker](https://www.tutlane.com/tutorial/android/android-timepicker-with-examples)
 9. [Bible Reading Plan](https://www.biblestudytools.com/bible-reading-plan/)
 10. [Hyperlinks](https://www.youtube.com/watch?v=aQIqQ2-lyO8)
-11. [Multiple Language](https://www.youtube.com/watch?v=zILw5eV9QBQ)
+11. [Multiple Languages](https://www.youtube.com/watch?v=zILw5eV9QBQ)
 
 
 ## Author
