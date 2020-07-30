@@ -43,6 +43,9 @@ Gloria Kim (sole contributor)
 **Need Help**
 - I successfully retrieved data from Firebase, but I cannot show the data using listview.
 
+**Before Publication**
+- Delete all unused libraries
+
 # Updates
 
 June (2nd): finished the design using Adobe XD
