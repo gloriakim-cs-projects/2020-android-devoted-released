@@ -33,11 +33,12 @@ Gloria Kim (sole contributor)
 
 - Brief instructions to use
 - Main's Setting
-- Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from stackoverflow. Need to know how to use FragmentManager.
+- Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from [stackoverflow](https://stackoverflow.com/questions/63167480/how-to-use-fragmentmanager-moving-from-an-activity-to-a-fragment). Need to know how to use FragmentManager. 
+- Need to know how to show the full content of each item in listview. [stackoverflow](https://stackoverflow.com/questions/63170886/how-to-display-the-full-content-of-each-item-in-listview-android-studio)
 
 **Need to add in the final report**
 
-- Public note --> Now it shows. Next, (1) resets the public note every time (2) display in a weird way. need to remove [] --> Created a user id to fix this issue --> Now all works! :)
+- Public note --> Now it shows. Next, (1) resets the public note every time (2) display in a weird way. need to remove [] --> Created a user id to fix this issue --> Now all works! :) 
 
 **Removed Feature**
 
