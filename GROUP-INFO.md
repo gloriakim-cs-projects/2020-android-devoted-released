@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 30, 2020 3:40 AM
+# As of July 30, 2020 5:40 AM
 
 **Fully Completed**
 
@@ -39,6 +39,7 @@ Gloria Kim (sole contributor)
 **Need to add in the final report**
 
 - Public note --> Now it shows. Next, (1) resets the public note every time (2) display in a weird way. need to remove [] --> Created a user id to fix this issue --> Now all works! :) 
+- added information in alarm for each readnig method
 
 **Removed Feature**
 
