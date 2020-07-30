@@ -33,7 +33,7 @@ Gloria Kim (sole contributor)
 
 - Brief instructions to use
 - Main's Setting
-- Refresh Bible fragment (my note part)
+- Refresh Bible fragment (my note part) --> made it work for creation. need to work for edition & deletion.
 - Public note --> (1) resets the public note every time (2) display in a weird way. need to remove [] (3) need to display right away
 
 **Removed Feature**
