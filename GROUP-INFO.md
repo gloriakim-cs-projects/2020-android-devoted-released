@@ -33,7 +33,7 @@ Gloria Kim (sole contributor)
 
 - Brief instructions to use
 - Main's Setting
-- Refresh Bible fragment (my note part) --> made it work for creation & edition. need to work for deletion.
+- Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from stackoverflow. Need to know how to use FragmentManager.
 - Public note --> Now it shows. Next, (1) resets the public note every time (2) display in a weird way. need to remove []
 
 **Removed Feature**
