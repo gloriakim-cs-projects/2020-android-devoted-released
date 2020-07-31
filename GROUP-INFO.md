@@ -32,13 +32,13 @@ Gloria Kim (sole contributor)
 - showed full content of each item of ListView
 - finished adding some brief messages for each reading plan. 
 - finished making textview clickable in Alarm for eaiser selection of checkmarks
+- finished changing font size
 
 **Need to Complete (Partially Completed)**
 
 - Brief instructions to use - add [One Time Screen](https://www.youtube.com/watch?v=O4q49TDsXAo)
 - Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from [stackoverflow](https://stackoverflow.com/questions/63167480/how-to-use-fragmentmanager-moving-from-an-activity-to-a-fragment). Need to know how to use FragmentManager. 
-- Need to know how to show the full content of each item in listview. [stackoverflow](https://stackoverflow.com/questions/63170886/how-to-display-the-full-content-of-each-item-in-listview-android-studio)
 - allow to change the bible verse only if today is different than yesterday
 
 **Need to add in the final report**
