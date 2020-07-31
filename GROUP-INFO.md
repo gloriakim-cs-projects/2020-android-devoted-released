@@ -35,6 +35,7 @@ Gloria Kim (sole contributor)
 - finished changing font size
 - added the app icon (shown in the screen) 
 - modified squished icon size when font is large
+- finished general instruction with fragments
 
 **Need to Complete (Partially Completed)**
 
