@@ -21,6 +21,7 @@ The list of references for building this project is shown below:
 9. [Bible Reading Plan](https://www.biblestudytools.com/bible-reading-plan/)
 10. [Hyperlinks](https://www.youtube.com/watch?v=aQIqQ2-lyO8)
 11. [Multiple Languages](https://www.youtube.com/watch?v=zILw5eV9QBQ)
+12. [Font Size](https://stackoverflow.com/questions/12704216/how-to-change-the-font-size-in-a-whole-application-programmatically-android#:~:text=you%20can%20scale%20to%20text,50%20would%20make%20it%20half.&text=Call%20setTextSize()%20on%20all,layout%20texts%20on%20the%20screen.)
 
 
 ## Author
