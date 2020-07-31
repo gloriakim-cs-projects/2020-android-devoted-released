@@ -23,6 +23,7 @@ The list of references for building this project is shown below:
 11. [Multiple Languages](https://www.youtube.com/watch?v=zILw5eV9QBQ)
 12. [Font Size](https://stackoverflow.com/questions/12704216/how-to-change-the-font-size-in-a-whole-application-programmatically-android#:~:text=you%20can%20scale%20to%20text,50%20would%20make%20it%20half.&text=Call%20setTextSize()%20on%20all,layout%20texts%20on%20the%20screen.)
 13. [First-Time Open](https://stackoverflow.com/questions/19927199/android-instructions-when-open-the-application-at-first-time)
+14. [Transparent Screen](https://stackoverflow.com/questions/2176922/how-do-i-create-a-transparent-activity-on-android)
 
 
 ## Author
