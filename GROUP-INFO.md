@@ -34,6 +34,7 @@ Gloria Kim (sole contributor)
 - finished making textview clickable in Alarm for eaiser selection of checkmarks
 - finished changing font size
 - added the app icon (shown in the screen) 
+- modified squished icon size when font is large
 
 **Need to Complete (Partially Completed)**
 
