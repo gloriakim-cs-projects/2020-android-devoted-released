@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 30, 2020 5:40 AM
+# As of July 30, 2020 9:45 PM
 
 **Fully Completed**
 
@@ -27,7 +27,9 @@ Gloria Kim (sole contributor)
 - Alarm
 - Notification
 - Record
-- all SharedPreferences variables (readnig_plan and reading_day)
+
+- completed all SharedPreferences variables (readnig_plan and reading_day)
+- showed full content of each item of ListView
 
 **Need to Complete (Partially Completed)**
 
@@ -35,6 +37,9 @@ Gloria Kim (sole contributor)
 - Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from [stackoverflow](https://stackoverflow.com/questions/63167480/how-to-use-fragmentmanager-moving-from-an-activity-to-a-fragment). Need to know how to use FragmentManager. 
 - Need to know how to show the full content of each item in listview. [stackoverflow](https://stackoverflow.com/questions/63170886/how-to-display-the-full-content-of-each-item-in-listview-android-studio)
+- Adding some brief messagse for each reading plan. 
+- make textview clickable in Alarm
+- allow to change the bible verse only if today is different than yesterday
 
 **Need to add in the final report**
 
