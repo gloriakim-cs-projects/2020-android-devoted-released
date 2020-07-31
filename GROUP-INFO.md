@@ -27,7 +27,7 @@ Gloria Kim (sole contributor)
 - Alarm
 - Notification
 - Record
-
+- 
 - completed all SharedPreferences variables (readnig_plan and reading_day)
 - showed full content of each item of ListView
 - finished adding some brief messages for each reading plan. 
