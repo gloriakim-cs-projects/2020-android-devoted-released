@@ -27,7 +27,7 @@ The list of references for building this project is shown below:
 
 ## Author
 
-This work is solely done by Gloria Kim.
+With the help from **Contributing** above, this work is solely done by Gloria Kim.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
