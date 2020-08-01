@@ -125,10 +125,10 @@ setResult(Activity.RESULT_OK);
 - Step 2. Create a folder for Git stuffs
 - Step 3. Inside of the folder, type the following code
 
-(1) `git init`
-(2) `git remote add origin http://github.com/gloriakim-cs-projects......`
-(3) `git add .`
-(4) `git commit -m "Initial commit"`
-(5) `git pull origin master`
-(6) Modify the folder as needed (ex) add a new folder
-(7) `git push origin master`
+1. `git init`
+2. `git remote add origin http://github.com/gloriakim-cs-projects......`
+3. `git add .`
+4. `git commit -m "Initial commit"`
+5. `git pull origin master`
+6. Modify the folder as needed (ex) add a new folder
+7. `git push origin master`
