@@ -2,7 +2,7 @@
 
 `Devoted: Daily Bible Notification` is an android app to send a daily notification for Christians to read the Bible. 
 
-## Installation
+## Download
 
 The app is downloadable at [Google Play Store (in progress)](https://play.google.com/store?hl=en_US).
 
