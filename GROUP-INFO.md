@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of august 1, 2020 1:16 AM
+# As of August 1, 2020 1:16 AM
 
 **Fully Completed**
 
@@ -36,13 +36,13 @@ Gloria Kim (sole contributor)
 - added the app icon (shown in the screen) 
 - modified squished icon size when font is large
 - finished all instruction with fragments
+- refreshed Bible fragment
 
 **Need to Complete (Partially Completed)**
 
 - Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - allow to change the bible verse only if today is different than yesterday
 - setting: allow textview clickable for easier selection
-- refreshed Bible fragment --> kept failing with FragmentManager. 
 
 **Need to add in the final report**
 
@@ -76,4 +76,45 @@ July (3rd): Started to code the external storage (Figrebase) using Android Studi
 July (4th): Continued to code the Java files using Android Studio
 
 August (1st): Warpped up the entire code and wrote the final report
+
+# Tips
+
+Because I spent hours to figure this out, I would like to show some detailed steps to use for later.
+
+[Refreshing a Fragment - Android Geek](https://stackoverflow.com/questions/44622311/how-can-i-call-onactivityresult-inside-fragment-and-how-it-work)
+
+- Step 1. Add the following code in the parent activity java file
+```
+public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+    super.onActivityResult(requestCode, resultCode, intent);
+    Fragment fragment = (Fragment) getSupportFragmentManager().findFragmentByTag("FragmentNotes");
+    if (fragment != null) {
+        fragment.onActivityResult(requestCode, resultCode, intent);
+    }
+}
+```
+- Step 2. Add the following code in the child fragment java file
+```
+@Override
+public void onActivityResult(int requestCode, int resultCode, Intent data)
+{
+    if ((requestCode == 10001) && (resultCode == Activity.RESULT_OK)) {
+      // recreate your fragment here
+      Fragment frg = null;
+      FragmentTransaction ft = getParentFragmentManager().beginTransaction();
+      if (Build.VERSION.SDK_INT >= 26) {
+          ft.setReorderingAllowed(false);
+      }
+      ft.detach(this).attach(this).commit();
+    }
+}
+```
+- Step 3. Start `startActivityForResult` (not just `startActivity`) from the child fragment to a new activity
+```
+startActivityForResult(editPrivateData, 10001);
+```
+- Step 4. Add `setResult` in that new activity
+```
+setResult(Activity.RESULT_OK);
+```
 
