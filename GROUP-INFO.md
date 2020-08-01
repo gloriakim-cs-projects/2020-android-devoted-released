@@ -43,6 +43,7 @@ Gloria Kim (sole contributor)
 - Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - allow to change the bible verse only if today is different than yesterday
 - setting: allow textview clickable for easier selection
+- allow to edit from private note to public note.
 
 **Need to add in the final report**
 
