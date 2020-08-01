@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of August 1, 2020 1:16 AM
+# As of August 1, 2020 3:00 AM
 
 **Fully Completed**
 
@@ -37,12 +37,11 @@ Gloria Kim (sole contributor)
 - modified squished icon size when font is large
 - finished all instruction with fragments
 - refreshed Bible fragment
+- completed setting - allow textview clickable for easier selection
 
 **Need to Complete (Partially Completed)**
 
-- Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - allow to change the bible verse only if today is different than yesterday
-- setting: allow textview clickable for easier selection
 
 **Need to add in the final report**
 
