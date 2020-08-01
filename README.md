@@ -24,7 +24,41 @@ The list of references for building this project is shown below:
 12. [Font Size](https://stackoverflow.com/questions/12704216/how-to-change-the-font-size-in-a-whole-application-programmatically-android#:~:text=you%20can%20scale%20to%20text,50%20would%20make%20it%20half.&text=Call%20setTextSize()%20on%20all,layout%20texts%20on%20the%20screen.)
 13. [First-Time Open](https://stackoverflow.com/questions/19927199/android-instructions-when-open-the-application-at-first-time)
 14. [Transparent Screen](https://stackoverflow.com/questions/2176922/how-do-i-create-a-transparent-activity-on-android)
-
+15. [Refreshing a Fragment - Android Geek](https://stackoverflow.com/questions/44622311/how-can-i-call-onactivityresult-inside-fragment-and-how-it-work)
+- Step 1. Add the following code in the parent activity java file
+```
+public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+    super.onActivityResult(requestCode, resultCode, intent);
+    Fragment fragment = (Fragment) getSupportFragmentManager().findFragmentByTag("FragmentNotes");
+    if (fragment != null) {
+        fragment.onActivityResult(requestCode, resultCode, intent);
+    }
+}
+```
+- Step 2. Add the following code in the child fragment java file
+```
+@Override
+public void onActivityResult(int requestCode, int resultCode, Intent data)
+{
+    if ((requestCode == 10001) && (resultCode == Activity.RESULT_OK)) {
+      // recreate your fragment here
+      Fragment frg = null;
+      FragmentTransaction ft = getParentFragmentManager().beginTransaction();
+      if (Build.VERSION.SDK_INT >= 26) {
+          ft.setReorderingAllowed(false);
+      }
+      ft.detach(this).attach(this).commit();
+    }
+}
+```
+- Step 3. Start `startActivityForResult` (not just `startActivity`) from the child fragment to a new activity
+```
+startActivityForResult(editPrivateData, 10001);
+```
+- Step 4. Add `setResult` in that new activity
+```
+setResult(Activity.RESULT_OK);
+```
 
 ## Author
 
