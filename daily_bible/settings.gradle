@@ -1,0 +1,2 @@
+rootProject.name='DailyBible3'
+include ':app'

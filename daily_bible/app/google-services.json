@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327715282046",
+    "firebase_url": "https://daily-bible-with-alarm.firebaseio.com",
+    "project_id": "daily-bible-with-alarm",
+    "storage_bucket": "daily-bible-with-alarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327715282046:android:a89a51db0e54309fc94c2f",
+        "android_client_info": {
+          "package_name": "com.example.dailybible3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327715282046-as4bekpm77b5018k1l1o4re12aup7ekf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB983jXAavbR04hwCSKy3osXUlzi3Xl4rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327715282046-as4bekpm77b5018k1l1o4re12aup7ekf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
