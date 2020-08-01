@@ -1,23 +1,3 @@
-# How to Install the Zip File
-
-Step 1. Download the zip file
-
-Step 2. Unzip the file
-
-Step 3. Open Android Studio
-
-Step 4. Open the file using Android Studio
-
-A thorughout readme can be found here: https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md
-
-# Group Name
-
-Devoted
-
-# Member Name
-
-Gloria Kim (sole contributor)
-
 # As of August 1, 2020 3:00 AM
 
 **Fully Completed**
@@ -39,25 +19,9 @@ Gloria Kim (sole contributor)
 - refreshed Bible fragment
 - completed setting - allow textview clickable for easier selection
 
-**Need to Complete (Partially Completed)**
-
-- allow to change the bible verse only if today is different than yesterday
-
-**Need to add in the final report**
-
-- Public note --> Now it shows. Next, (1) resets the public note every time (2) display in a weird way. need to remove [] --> Created a user id to fix this issue --> Now all works! :) 
-- added information in alarm for each readnig method
-- removed features to allow editing from private note to public note. (time limit)
-
-**Removed Feature**
-
-- Because NIV is not freely available and KJV is difficult to understand, I simply removed the entire Bible fragment.
-
 **Need Help**
-- I successfully retrieved data from Firebase, but I cannot show the data using listview.
 
-**Before Publication**
-- Delete all unused libraries
+- I successfully retrieved data from Firebase, but I cannot show the data using listview nicely (I separated each string with comma, but that limits users to use the comma in their notes).
 
 # Updates
 
