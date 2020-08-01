@@ -18,7 +18,7 @@ Devoted
 
 Gloria Kim (sole contributor)
 
-# As of July 31, 2020 1:45 AM
+# As of august 1, 2020 1:16 AM
 
 **Fully Completed**
 
@@ -36,11 +36,11 @@ Gloria Kim (sole contributor)
 - added the app icon (shown in the screen) 
 - modified squished icon size when font is large
 - finished all instruction with fragments
+- refreshed Bible fragment
 
 **Need to Complete (Partially Completed)**
 
 - Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
-- Refresh Bible fragment (my note part) --> need to update (1) MyNotes.java & (2) FragmentNotesEidtPrivateData.java once I got the answers from [stackoverflow](https://stackoverflow.com/questions/63167480/how-to-use-fragmentmanager-moving-from-an-activity-to-a-fragment). Need to know how to use FragmentManager. 
 - allow to change the bible verse only if today is different than yesterday
 - setting: allow textview clickable for easier selection
 
