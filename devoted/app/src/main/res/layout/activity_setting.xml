@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:theme="@style/FontStyle">
+
+    <TextView
+        android:id="@+id/white_background_round"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_background_round" />
+
+    <TextView
+        android:id="@+id/title_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/white_background_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_string"
+        android:layout_alignStart="@+id/white_background_round"
+        android:layout_alignEnd="@+id/white_background_round"
+        android:layout_alignBottom="@+id/white_background_round"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/subtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Font Size"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="30sp"
+                android:layout_marginBottom="10sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp" />
+
+            <CheckBox
+                android:id="@+id/large_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle2"
+                android:layout_margin="10sp"/>
+
+            <TextView
+                android:id="@+id/large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:layout_toRightOf="@+id/large_button"
+                android:layout_alignTop="@+id/large_button"
+                android:layout_alignBottom="@+id/large_button"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <CheckBox
+                android:id="@+id/small_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/large_button"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginBottom="10sp"
+                android:checked="true"/>
+
+            <TextView
+                android:id="@+id/small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small"
+                android:layout_toRightOf="@+id/small_button"
+                android:layout_alignTop="@+id/small_button"
+                android:layout_alignBottom="@+id/small_button"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/small"
+                android:layout_marginTop="20dp"
+                android:text="Langauge"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="30sp"
+                android:layout_marginBottom="10sp"
+                android:textStyle="bold"
+                android:visibility="invisible"/>
+
+            <CheckBox
+                android:id="@+id/english_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle1"
+                android:layout_margin="10sp"
+                android:checked="true"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:layout_toRightOf="@+id/english_button"
+                android:layout_alignTop="@+id/english_button"
+                android:layout_alignBottom="@+id/english_button"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:visibility="invisible"/>
+
+            <CheckBox
+                android:id="@+id/korean_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/english_button"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/korean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Korean"
+                android:layout_toRightOf="@+id/korean_button"
+                android:layout_alignTop="@+id/korean_button"
+                android:layout_alignBottom="@+id/korean_button"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/white_background_round"
+        android:layout_alignRight="@+id/white_background_round"
+        android:layout_alignLeft="@+id/white_background_round"
+        android:layout_marginRight="100sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/light_background_round_english"
+        android:text="Save"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

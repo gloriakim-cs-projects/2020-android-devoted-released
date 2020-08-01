@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentRecords"
+    android:theme="@style/FontStyle">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/white_background_round"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_background_round" />
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/white_background_round"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/title_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Records"
+                android:textColor="@color/colorPrimary"
+                android:textSize="45sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/title_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/title_string"
+                android:layout_alignBottom="@+id/title_string"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/title_string"
+                android:background="@drawable/ic_records_english" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title"
+            android:layout_alignStart="@+id/white_background_round"
+            android:layout_alignEnd="@+id/white_background_round"
+            android:layout_alignBottom="@+id/white_background_round"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/subtitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Read"
+                    android:textColor="@color/colorPrimaryLight"
+                    android:textSize="40sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/subtitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subtitle1"
+                    android:layout_centerHorizontal="true"
+                    android:text="the Bible"
+                    android:textColor="@color/colorPrimaryLight"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/subtitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subtitle2"
+                    android:layout_centerHorizontal="true"
+                    android:text="5 Times"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10sp"
+                    android:textSize="60sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="2sp"
+                    android:layout_below="@+id/subtitle3"
+                    android:layout_margin="20sp"
+                    android:background="@color/colorPrimary"/>
+
+                <ImageView
+                    android:id="@+id/bible_image1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignTop="@+id/line"
+                    android:layout_toLeftOf="@+id/bible_image2"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignTop="@+id/line"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignTop="@+id/line"
+                    android:layout_toRightOf="@+id/bible_image2"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image2"
+                    android:layout_toLeftOf="@+id/bible_image5"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image2"
+                    android:layout_toRightOf="@+id/bible_image5"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image5"
+                    android:layout_toLeftOf="@+id/bible_image8"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image8"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image9"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image5"
+                    android:layout_toRightOf="@+id/bible_image8"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image10"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image8"
+                    android:layout_toLeftOf="@+id/bible_image11"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image12"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image8"
+                    android:layout_toRightOf="@+id/bible_image11"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image13"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image11"
+                    android:layout_toLeftOf="@+id/bible_image14"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image14"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image11"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+                <ImageView
+                    android:id="@+id/bible_image15"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/bible_image11"
+                    android:layout_toRightOf="@+id/bible_image14"
+                    android:layout_marginLeft="20sp"
+                    android:background="@drawable/ic_bible_english" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

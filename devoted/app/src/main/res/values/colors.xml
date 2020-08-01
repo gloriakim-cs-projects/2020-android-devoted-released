@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#017E90</color>
+    <color name="colorPrimaryDark">#005A67</color>
+    <color name="colorPrimaryLight">#85D1DC</color>
+    <color name="colorAccent">#BDEEF5</color>
+
+    <color name="Korean_colorPrimary">#2364AA</color>
+    <color name="Korean_colorPrimaryLight">#94BFEE</color>
+    <color name="Korean_colorAccent">#D8E5F3</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+</resources>

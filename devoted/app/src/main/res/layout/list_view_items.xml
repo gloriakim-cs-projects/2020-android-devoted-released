@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_item_text"
+    android:textColor="@color/colorPrimary"
+    android:text="1) When anyone brings a grain offering to the Lord, their offering is to be of the finest flour. They are to pour olive oil on it, put incense on it"
+    android:textSize="20dp"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:textStyle="bold"
+    android:lineSpacingMultiplier="1.3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>

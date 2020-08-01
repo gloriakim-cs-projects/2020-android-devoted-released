@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:theme="@style/FontStyle">
+
+    <TextView
+        android:id="@+id/white_background_round"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_background_round" />
+
+    <TextView
+        android:id="@+id/title_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/white_background_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_string"
+        android:layout_alignStart="@+id/white_background_round"
+        android:layout_alignEnd="@+id/white_background_round"
+        android:layout_above="@+id/close_button"
+        android:layout_margin="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Font"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/link_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle1"
+                android:layout_alignStart="@+id/subtitle1"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/link_font"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/subtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/link_font"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="5dp"
+                android:text="Pictures"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/link_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle2"
+                android:layout_alignStart="@+id/subtitle1"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/link_photo"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/subtitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/link_photo"
+                android:text="Icons"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+            android:id="@+id/credit_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle3"
+            android:layout_alignStart="@+id/subtitle2"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/link_alarm_icon"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/credit_bible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/credit_alarm"
+                android:layout_alignStart="@+id/subtitle2"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/link_bible_icon"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/credit_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/credit_bible"
+                android:layout_alignStart="@+id/subtitle2"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/link_note_icon"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+            android:id="@+id/credit_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/credit_note"
+            android:layout_alignStart="@+id/subtitle2"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/link_record_icon"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/credit_smile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/credit_record"
+                android:layout_alignStart="@+id/subtitle2"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/link_smile"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_alignBottom="@+id/white_background_round"
+        android:layout_alignRight="@+id/white_background_round"
+        android:layout_alignLeft="@+id/white_background_round"
+        android:layout_marginRight="100sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/light_background_round_english"
+        android:text="Close"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

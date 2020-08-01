@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAlarm"
+    android:theme="@style/FontStyle">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/white_background_round"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_background_round" />
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/white_background_round"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/title_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarm"
+                android:textColor="@color/colorPrimary"
+                android:textSize="45sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/title_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/title_string"
+                android:layout_alignBottom="@+id/title_string"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/title_string"
+                android:background="@drawable/ic_alarm_english" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title"
+            android:layout_alignStart="@+id/white_background_round"
+            android:layout_alignEnd="@+id/white_background_round"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@id/save_button">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/subtitle1">
+
+<!--                reading plan-->
+                <TextView
+                    android:id="@+id/subtitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reading Plan"
+                    android:textColor="@color/colorPrimaryLight"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="10sp"/>
+
+<!--                book order-->
+                <CheckBox
+                    android:id="@+id/book_order_box"
+                    android:layout_width="25dp"
+                    android:layout_height="25sp"
+                    android:layout_below="@+id/subtitle2"
+                    android:layout_margin="10sp"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RelativeLayout
+                    android:id="@+id/book_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/book_order_box"
+                    android:layout_alignBottom="@+id/book_order_box">
+
+                    <TextView
+                        android:id="@+id/book_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Order"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:clickable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book_order_info_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/book_order"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_info"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+<!--                history order-->
+                <CheckBox
+                    android:id="@+id/history_order_box"
+                    android:layout_width="25dp"
+                    android:layout_height="25sp"
+                    android:layout_below="@+id/book_layout"
+                    android:layout_margin="10sp"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RelativeLayout
+                    android:id="@+id/history_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/history_order_box"
+                    android:layout_alignBottom="@+id/history_order_box">
+
+                    <TextView
+                        android:id="@+id/history_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History Order"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:clickable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/history_order_info_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/history_order"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_info"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+<!--                90-day-->
+                <CheckBox
+                    android:id="@+id/ninety_days_box"
+                    android:layout_width="25dp"
+                    android:layout_height="25sp"
+                    android:layout_below="@+id/history_layout"
+                    android:layout_margin="10sp"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RelativeLayout
+                    android:id="@+id/ninety_days_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ninety_days_box"
+                    android:layout_alignBottom="@+id/ninety_days_box">
+
+                    <TextView
+                        android:id="@+id/ninety_days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90-Day Challenge"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:clickable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/ninety_days_info_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/ninety_days"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_info"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+<!--                time-->
+                <TextView
+                    android:id="@+id/subtitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ninety_days_box"
+                    android:text="Time"
+                    android:textColor="@color/colorPrimaryLight"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="10sp"/>
+
+                <TimePicker
+                    android:id="@+id/time_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/subtitle4"
+                    android:timePickerMode="spinner"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/white_background_round"
+            android:layout_alignRight="@+id/white_background_round"
+            android:layout_alignLeft="@+id/white_background_round"
+            android:layout_marginRight="100sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/light_background_round_english"
+            android:text="Save"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

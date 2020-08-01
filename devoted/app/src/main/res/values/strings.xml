@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Daily Bible</string>
+    <string name="tab_text_1">Main</string>
+    <string name="tab_text_2">Bible</string>
+    <string name="tab_text_3">Notes</string>
+    <string name="tab_text_4">Alarm</string>
+    <string name="tab_text_5">Record</string>
+
+    <!--    hyperlinks-->
+    <string name="link_note_icon">
+        <a href="https://www.flaticon.com/packs/interface-60">Note: Kiranshastry\n (flaticon.com)</a>
+    </string>
+    <string name="link_bible_icon">
+        <a href="https://www.flaticon.com/free-icon/open-book_171322">Bible: Freepik\n (flaticon.com)</a>
+    </string>
+    <string name="link_alarm_icon">
+        <a href="https://www.flaticon.com/packs/mintab-glyph-for-ios">Alarm: Becris\n (flaticon.com)</a>
+    </string>
+    <string name="link_record_icon">
+        <a href="https://www.flaticon.com/packs/satellite-navigation">Record: Smashicons\n (flaticon.com)</a>
+    </string>
+
+    <string name="link_smile">
+        <a href="https://www.flaticon.com/packs/emojis-38">Smile: Freepik\n (flaticon.com</a>
+    </string>
+
+    <string name="link_photo">
+        <a href="https://unsplash.com/photos/fsJB3KT2rj8">Casey Horner\n (unsplash.com)</a>
+    </string>
+    <string name="link_font">
+        <a href="https://togethergroup.co.kr/sub/type/view.asp?idx=204">62570\n (Korean Memorial Day\n 70th Anniversary)</a>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

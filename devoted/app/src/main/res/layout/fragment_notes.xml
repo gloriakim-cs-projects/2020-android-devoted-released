@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentNotes"
+    android:theme="@style/FontStyle"
+    android:id="@+id/fragment_note_id">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/white_background_round"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_background_round" />
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/white_background_round"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/title_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:textColor="@color/colorPrimary"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10sp"/>
+
+            <ImageView
+                android:id="@+id/title_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/title_string"
+                android:layout_alignBottom="@+id/title_string"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/title_string"
+                android:background="@drawable/ic_note_english" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/button_background"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/white_background_round"
+            android:layout_alignEnd="@+id/white_background_round"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@+id/title"
+            android:background="@drawable/light_background_round_english" />
+
+        <Button
+            android:id="@+id/btn_my_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/button_background"
+            android:layout_alignStart="@+id/button_background"
+            android:layout_alignBottom="@+id/button_background"
+            android:layout_toStartOf="@+id/centerline"
+            android:text="My Notes"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:elevation="10dp"/>
+
+        <Button
+            android:id="@+id/btn_all_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/button_background"
+            android:layout_alignEnd="@+id/button_background"
+            android:layout_alignBottom="@+id/button_background"
+            android:layout_toEndOf="@+id/centerline"
+            android:text="All Notes"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:elevation="10dp"/>
+
+        <TextView
+            android:id="@+id/centerline"
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_alignBottom="@+id/button_background"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/title"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:layout_alignTop="@+id/button_background"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/white_background_round"
+            android:layout_alignLeft="@id/white_background_round"
+            android:layout_alignBottom="@id/white_background_round"
+            android:layout_below="@+id/button_background"
+            android:layout_margin="10sp"
+            android:id="@+id/list_view" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_margin="20dp"
+            android:layout_alignBottom="@id/white_background_round"
+            android:layout_alignRight="@id/white_background_round"
+            android:src="@drawable/ic_add_white"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

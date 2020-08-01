@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "907154579208",
+    "firebase_url": "https://daily-bible-55159.firebaseio.com",
+    "project_id": "daily-bible-55159",
+    "storage_bucket": "daily-bible-55159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907154579208:android:59e6308139c011eaeb96bd",
+        "android_client_info": {
+          "package_name": "com.example.dailybible3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907154579208-5j7ptpq5nb5648qd0bnn6pc1646eov2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBqO1HKpUzM9j7jXKY_LXm4XjicGrpEqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907154579208-5j7ptpq5nb5648qd0bnn6pc1646eov2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
