@@ -36,13 +36,13 @@ Gloria Kim (sole contributor)
 - added the app icon (shown in the screen) 
 - modified squished icon size when font is large
 - finished all instruction with fragments
-- refreshed Bible fragment
 
 **Need to Complete (Partially Completed)**
 
 - Main's Setting - add [multiple langauges](https://github.com/gloriakim-cs-projects/android_app_daily_bible/blob/master/README.md)
 - allow to change the bible verse only if today is different than yesterday
 - setting: allow textview clickable for easier selection
+- refreshed Bible fragment --> kept failing with FragmentManager. 
 
 **Need to add in the final report**
 
