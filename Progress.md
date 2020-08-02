@@ -74,8 +74,8 @@ setResult(Activity.RESULT_OK);
 
 1. `git init`
 2. `git remote add origin http://github.com/gloriakim-cs-projects......`
-3. `git add .`
-4. `git commit -m "Initial commit"`
-5. `git pull origin master`
-6. Modify the folder as needed (ex) add a new folder
+3. `git pull origin master`
+4. Modify the folder as needed (ex) add a new folder
+5. `git add .`
+6. `git commit -m "Initial commit"`
 7. `git push origin master`
