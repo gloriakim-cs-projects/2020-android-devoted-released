@@ -16,24 +16,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/alarm_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="ALARM"
-                android:layout_toRightOf="@+id/arrow"
-                android:gravity="center"
-                android:lineSpacingMultiplier="1.2"
-                android:textSize="15sp"
-                android:textColor="@color/colorWhite"/>
-
             <ImageView
                 android:id="@+id/arrow"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="-10dp"
-                android:background="@drawable/ic_arrow_white2"/>
+                android:layout_height="50dp"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/ic_white_circle"/>
         </RelativeLayout>
 
 

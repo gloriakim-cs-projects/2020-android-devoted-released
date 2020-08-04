@@ -875,15 +875,29 @@ public class NotificationHelper extends ContextWrapper {
 
         //grab the CONTROLLER VARIABLE reading_plan AND reading_day
         SharedPreferences settings = getSharedPreferences("PREFS", 0);
+        SharedPreferences.Editor editor = settings.edit();
+
+        //declare variables
         String reading_plan = settings.getString("reading_plan", null);
+        int number_completion = settings.getInt("number_completion",0);
         int reading_day = settings.getInt("reading_day", 0);
         //reading_day is set to 1, so for arrays, reading_day should be subtracted 1
         reading_day--;
 
-        if (reading_plan.equals("ninety_days")) {
+        if (reading_plan == null) {
+            return new NotificationCompat.Builder(getApplicationContext(), channelID)
+                    .setContentTitle("Today's Bible Verse")
+                    .setContentText("Please set your reading plan.")
+                    .setSmallIcon(R.drawable.ic_bible_english)
+                    .setAutoCancel(true)
+                    .setContentIntent(resultPendingIntent);
+        }
+        else if (reading_plan.equals("ninety_days")) {
             if (reading_day >= 90)
             {
-                FragmentRecords.number_completion++;
+                number_completion++;
+                editor.putInt("number_completion", number_completion);
+                editor.commit();
                 return new NotificationCompat.Builder(getApplicationContext(), channelID)
                         .setContentTitle("Today's Bible Verse")
                         .setContentText("Congratulations, you completed the 90 days challenge!")
@@ -902,7 +916,9 @@ public class NotificationHelper extends ContextWrapper {
         }
         else if (reading_plan.equals("order_bible")) {
             if (reading_day >= 365) {
-                FragmentRecords.number_completion++;
+                number_completion++;
+                editor.putInt("number_completion", number_completion);
+                editor.commit();
                 return new NotificationCompat.Builder(getApplicationContext(), channelID)
                         .setContentTitle("Today's Bible Verse")
                         .setContentText("Congratulations, you completed the one-year Bible reading!")
@@ -921,7 +937,9 @@ public class NotificationHelper extends ContextWrapper {
         }
         else if (reading_plan.equals("order_history")) {
             if (reading_day >= 365) {
-                FragmentRecords.number_completion++;
+                number_completion++;
+                editor.putInt("number_completion", number_completion);
+                editor.commit();
                 return new NotificationCompat.Builder(getApplicationContext(), channelID)
                         .setContentTitle("Today's Bible Verse")
                         .setContentText("Congratulations, you completed the one-year Bible reading!")
@@ -937,14 +955,6 @@ public class NotificationHelper extends ContextWrapper {
                         .setAutoCancel(true)
                         .setContentIntent(resultPendingIntent);
             }
-        }
-        else if (reading_plan == null) {
-            return new NotificationCompat.Builder(getApplicationContext(), channelID)
-                    .setContentTitle("Today's Bible Verse")
-                    .setContentText("Please set your reading plan.")
-                    .setSmallIcon(R.drawable.ic_bible_english)
-                    .setAutoCancel(true)
-                    .setContentIntent(resultPendingIntent);
         }
         else {
             return new NotificationCompat.Builder(getApplicationContext(), channelID)

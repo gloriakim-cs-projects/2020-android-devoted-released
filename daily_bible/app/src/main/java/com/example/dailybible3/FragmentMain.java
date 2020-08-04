@@ -988,6 +988,12 @@ public class FragmentMain extends Fragment {
             }
         }
 
+        //set the message to come back tomorrow if users finished reading
+        if (lastDay == currentDay && complete_box.isChecked()) {
+            day_text.setText("");
+            verse_text.setText("Please\ncome back\ntomorrow\nto read more!");
+        }
+
         //setting button
         btn_setting = (Button) view.findViewById(R.id.setting_button);
         btn_setting.setOnClickListener(new View.OnClickListener() {

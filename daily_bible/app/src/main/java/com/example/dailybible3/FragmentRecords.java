@@ -1,5 +1,6 @@
 package com.example.dailybible3;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -12,7 +13,6 @@ import android.widget.TextView;
 
 public class FragmentRecords extends Fragment {
     private View view;
-    public static int number_completion = 0;
     private TextView number_completion_text;
     private ImageView icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8, icon9, icon10, icon11, icon12, icon13, icon14, icon15;
 
@@ -26,6 +26,9 @@ public class FragmentRecords extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_records, container, false);
+
+        final SharedPreferences settings = this.getActivity().getSharedPreferences("PREFS", 0);
+        int number_completion = settings.getInt("number_completion",0);
 
         //show the number of completion
         number_completion_text = (TextView) view.findViewById(R.id.subtitle3);

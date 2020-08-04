@@ -65,7 +65,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginRight="65dp"
                 android:layout_marginLeft="65dp"
-                android:layout_marginBottom="70dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/dark_button_round_english" />
 
             <RelativeLayout

@@ -60,25 +60,47 @@ public class FragmentAlarm extends Fragment {
         text_history.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                order_history.setChecked(true);
-                ninety_days.setChecked(false);
-                order_bible.setChecked(false);
+                if (order_history.isChecked()) {
+                    order_history.setChecked(false);
+                    ninety_days.setChecked(false);
+                    order_bible.setChecked(false);
+                }
+                else {
+                    order_history.setChecked(true);
+                    ninety_days.setChecked(false);
+                    order_bible.setChecked(false);
+                }
             }
         });
         text_bible.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                order_bible.setChecked(true);
-                ninety_days.setChecked(false);
-                order_history.setChecked(false);
+                if (order_bible.isChecked()) {
+
+                    order_bible.setChecked(false);
+                    ninety_days.setChecked(false);
+                    order_history.setChecked(false);
+                }
+                else {
+                    order_bible.setChecked(true);
+                    ninety_days.setChecked(false);
+                    order_history.setChecked(false);
+                }
             }
         });
         text_ninety_days.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ninety_days.setChecked(true);
-                order_bible.setChecked(false);
-                order_history.setChecked(false);
+                if (ninety_days.isChecked()) {
+                    ninety_days.setChecked(false);
+                    order_bible.setChecked(false);
+                    order_history.setChecked(false);
+                }
+                else {
+                    ninety_days.setChecked(true);
+                    order_bible.setChecked(false);
+                    order_history.setChecked(false);
+                }
             }
         });
 
@@ -87,6 +109,7 @@ public class FragmentAlarm extends Fragment {
         btn_bible = (ImageButton) view.findViewById(R.id.book_order_info_icon);
         btn_history = (ImageButton) view.findViewById(R.id.history_order_info_icon);
 
+        //set each reading plan's information
         btn_ninety_days.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,9 +140,7 @@ public class FragmentAlarm extends Fragment {
 
         //for setting THE CONTROLLER VARIABLE reading_day
         final SharedPreferences settings = this.getActivity().getSharedPreferences("PREFS", 0);
-
-        //set reading plan
-        readingPlan();
+        final SharedPreferences.Editor editor = settings.edit();
 
         //save button; set the alarm notification
         btn_save = (Button) view.findViewById(R.id.save_button);
@@ -132,8 +153,19 @@ public class FragmentAlarm extends Fragment {
                 else {
 
                     //reset THE CONTROLLER VARIABLE reading_day
-                    SharedPreferences.Editor editor = settings.edit();
                     editor.putInt("reading_day", 1);
+                    editor.commit();
+
+                    //set reading plan
+                    if (ninety_days.isChecked()) {
+                        editor.putString("reading_plan", "ninety_days");
+                    }
+                    else if (order_bible.isChecked()) {
+                        editor.putString("reading_plan", "order_bible");
+                    }
+                    else if (order_history.isChecked()) {
+                        editor.putString("reading_plan", "order_history");
+                    }
                     editor.commit();
 
                     Calendar calendar = Calendar.getInstance();
@@ -190,10 +222,6 @@ public class FragmentAlarm extends Fragment {
                 if (ninety_days.isChecked()) {
                     order_bible.setChecked(false);
                     order_history.setChecked(false);
-
-                    SharedPreferences.Editor editor = settings.edit();
-                    editor.putString("reading_plan", "ninety_days");
-                    editor.commit();
                 }
             }
         });
@@ -204,10 +232,6 @@ public class FragmentAlarm extends Fragment {
                 if (order_bible.isChecked()) {
                     ninety_days.setChecked(false);
                     order_history.setChecked(false);
-
-                    SharedPreferences.Editor editor = settings.edit();
-                    editor.putString("reading_plan", "order_bible");
-                    editor.commit();
                 }
             }
         });
@@ -218,10 +242,6 @@ public class FragmentAlarm extends Fragment {
                 if (order_history.isChecked()) {
                     ninety_days.setChecked(false);
                     order_bible.setChecked(false);
-
-                    SharedPreferences.Editor editor = settings.edit();
-                    editor.putString("reading_plan", "order_history");
-                    editor.commit();
                 }
             }
         });
