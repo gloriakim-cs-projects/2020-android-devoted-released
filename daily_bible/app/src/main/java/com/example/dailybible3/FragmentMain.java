@@ -871,6 +871,7 @@ public class FragmentMain extends Fragment {
             "Revelation\n19-22"
             //</editor-fold>
     };
+    private int currentDay;
 
     public static FragmentMain newInstance() {
         FragmentMain fragmentMain = new FragmentMain();

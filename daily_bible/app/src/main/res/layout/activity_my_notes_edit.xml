@@ -108,7 +108,7 @@
             android:layout_marginBottom="20sp"
             android:layout_marginTop="10sp"
             android:background="@drawable/light_background_round_english"
-            android:text="Save"
+            android:text="Edit"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             android:textSize="30sp"/>

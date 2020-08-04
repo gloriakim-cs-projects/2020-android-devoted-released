@@ -113,13 +113,7 @@ public class MyNotes extends AppCompatActivity {
                     editText.setText("");
                     userIDText.setText("");
                     //close the window
-                    //finish()
-                    //FIXME: To refresh the page, I used FragmentManager instead of finish
-//                    Fragment mFragmentNotes = new FragmentNotes ();
-//                    FragmentManager fragmentManager = getFragmentManager();
-//                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-//                    fragmentTransaction.replace(R.id.fragment_note_id, mFragmentNotes).addToBackStack(null);
-//                    fragmentTransaction.commit();
+                    finish();
                 }
                 else {
                     toastMessage("There is an error to create your note.");

@@ -129,7 +129,7 @@ public class FragmentNotes extends Fragment {
 
                 }
                 else{
-                    toastMessage("No ID associated with that name");
+//                    toastMessage("No ID associated with that name");
                 }
             }
         });
