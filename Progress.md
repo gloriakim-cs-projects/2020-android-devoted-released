@@ -79,3 +79,9 @@ setResult(Activity.RESULT_OK);
 5. `git add .`
 6. `git commit -m "Initial commit"`
 7. `git push origin master`
+
+## How to Properly Android Studio's files in Different Computers
+
+- Step 1. Build -> Clean Project
+- Step 2. Build -> Rebuild Project
+- Step 3. Play the Emulator
