@@ -6,6 +6,14 @@
 
 The app is downloadable at [Google Play Store (in progress)](https://play.google.com/store?hl=en_US).
 
+## Simple Demo
+
+![daily-bible-1-min-demo](https://user-images.githubusercontent.com/68700599/89263452-ec383880-d5f6-11ea-8596-ce7ead20cea2.gif)
+
+## Detailed Demo
+
+![daily-bible-detailed-demo](https://youtu.be/Z_nw2LudkYE)
+
 ## Design
 
 ![image](https://user-images.githubusercontent.com/68700599/89109193-a582ec80-d404-11ea-8df2-2994c16acd49.png)
