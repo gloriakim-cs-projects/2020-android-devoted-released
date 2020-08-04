@@ -1,4 +1,4 @@
-# As of August 1, 2020 3:00 AM
+# As of August 4, 2020 2:13 AM
 
 **Fully Completed**
 
@@ -17,6 +17,7 @@
 - finished all instruction with fragments
 - refreshed Bible fragment
 - completed setting - allow textview clickable for easier selection
+- added the app icon and proper name
 
 **Need Help**
 
