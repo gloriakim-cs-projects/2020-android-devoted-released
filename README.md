@@ -10,7 +10,7 @@ The app is downloadable at [Google Play Store (in progress)](https://play.google
 
 ![daily-bible-1-min-demo](https://user-images.githubusercontent.com/68700599/89263452-ec383880-d5f6-11ea-8596-ce7ead20cea2.gif)
 
-## Detailed Demo
+## Detailed Demo (External Link to YouTube)
 
 [![https://user-images.githubusercontent.com/68700599/89263654-41744a00-d5f7-11ea-90a6-47ed3818b5ee.png](http://img.youtube.com/vi/Z_nw2LudkYE/0.jpg)](http://www.youtube.com/watch?v=Z_nw2LudkYE "Daily_Bible_YouTube_Thumbnail")
 
