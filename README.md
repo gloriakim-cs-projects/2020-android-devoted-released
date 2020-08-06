@@ -4,7 +4,7 @@
 
 ## Download
 
-The app is downloadable at [Google Play Store (in review by Google App Store)](https://play.google.com/store?hl=en_US).
+The app is downloadable at [Google Play Store (under review)](https://play.google.com/store?hl=en_US).
 
 ## Design
 
