@@ -16,7 +16,7 @@ The app is downloadable at [Google Play Store (in review by Google App Store)](h
 
 ## Detailed Demo (External Link to YouTube)
 
-[![https://user-images.githubusercontent.com/68700599/89263654-41744a00-d5f7-11ea-90a6-47ed3818b5ee.png](http://img.youtube.com/vi/Z_nw2LudkYE/0.jpg)](http://www.youtube.com/watch?v=Z_nw2LudkYE "Daily_Bible_YouTube_Thumbnail")
+[![https://user-images.githubusercontent.com/68700599/89263654-41744a00-d5f7-11ea-90a6-47ed3818b5ee.png](http://img.youtube.com/vi/q-9NztH9ImQ/0.jpg)](https://youtu.be/q-9NztH9ImQ "Daily_Bible_YouTube_Thumbnail")
 
 ## Contributing
 
