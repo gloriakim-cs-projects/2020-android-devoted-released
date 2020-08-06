@@ -1,4 +1,4 @@
-# As of August 4, 2020 2:13 AM
+# As of August 6, 2020 1:02 AM
 
 **Fully Completed**
 
@@ -18,6 +18,7 @@
 - refreshed Bible fragment
 - completed setting - allow textview clickable for easier selection
 - added the app icon and proper name
+- exported APK file for app publication
 
 **Need Help**
 
